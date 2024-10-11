@@ -1,21 +1,15 @@
 <?php return array(
     'root' => array(
         'name' => 'vendor/verifyadcaptcha',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '5af495c3bc150199802ee402292f28ff707b35d5',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => 'ae7a1d049281d1f2a1f99955b0d3c4c69f29b6f4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'malkusch/php-mock' => array(
-            'dev_requirement' => true,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.x-dev',
             'version' => '1.9999999.9999999.9999999-dev',
@@ -52,17 +46,6 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phar-io/version',
             'aliases' => array(),
-            'dev_requirement' => true,
-        ),
-        'php-mock/php-mock' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'fff1a621ebe54100fa3bd852e7be57773a0c0127',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../php-mock/php-mock',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
             'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
@@ -306,9 +289,9 @@
             'dev_requirement' => true,
         ),
         'vendor/verifyadcaptcha' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '5af495c3bc150199802ee402292f28ff707b35d5',
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => 'ae7a1d049281d1f2a1f99955b0d3c4c69f29b6f4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

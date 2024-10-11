@@ -8,15 +8,10 @@ class ComposerStaticInit7d575fe56f8900a10372ebb66a12cf42
 {
     public static $files = array (
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '9e7a8ca9c2c682ec2704dd873a0e3618' => __DIR__ . '/..' . '/php-mock/php-mock/autoload.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'p' => 
-        array (
-            'phpmock\\' => 8,
-        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -32,11 +27,6 @@ class ComposerStaticInit7d575fe56f8900a10372ebb66a12cf42
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpmock\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/php-mock/php-mock/classes',
-            1 => __DIR__ . '/..' . '/php-mock/php-mock/tests',
-        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',

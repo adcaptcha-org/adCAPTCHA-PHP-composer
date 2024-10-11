@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"VerifyTest::testVerifyUnauthorized":0.005,"VerifyTest::testVerifyInvalidToken":0,"VerifyTest::testVerifyTokenVerified":0,"VerifyTest::testVerifyTokenMissing":0,"VerifyTest::testVerifyTokenAlreadyVerified":0}}
+{"version":1,"defects":[],"times":{"VerifyTest::testVerifyUnauthorized":0.001,"VerifyTest::testVerifyInvalidToken":0,"VerifyTest::testVerifyTokenVerified":0,"VerifyTest::testVerifyTokenMissing":0,"VerifyTest::testVerifyTokenAlreadyVerified":0}}
