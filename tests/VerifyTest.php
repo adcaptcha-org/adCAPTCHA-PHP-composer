@@ -12,7 +12,8 @@ class VerifyTest extends TestCase
         parent::setUp();
         // Create a mock for the Verify class
         $this->verify = $this->getMockBuilder(Verify::class)
-            ->onlyMethods(['verify']) // Use onlyMethods to specify which methods to mock
+        // Use onlyMethods to specify which methods to mock
+            ->onlyMethods(['verify']) 
             ->getMock();
     }
 
