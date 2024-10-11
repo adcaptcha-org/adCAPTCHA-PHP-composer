@@ -32,8 +32,6 @@ class VerifyTest extends TestCase
 
         // Call the verify method with the mocked response
         $response = $this->verify->verify($apiKey, $token);
-        echo "API Response: ";
-        print_r($response);
 
         // Assert the response structure
         $this->assertArrayHasKey('message', $response, "Expected 'message' key in response");
@@ -54,10 +52,6 @@ class VerifyTest extends TestCase
         
         // Call the verify method with the mocked response
         $response = $this->verify->verify($apiKey, $token);
-
-        // Log the response to the terminal for inspection
-        echo "Valid API Response: ";
-        print_r($response);
 
         // Assert the response structure
         $this->assertResponse($response, $expectedResponse);
@@ -81,10 +75,6 @@ class VerifyTest extends TestCase
     // Call the verify method with the mocked response
     $response = $this->verify->verify($apiKey, $token);
 
-    // Log the response to the terminal for inspection
-    echo "Valid API Response: ";
-    print_r($response);
-
     // Assert the response structure
     $this->assertResponse($response, $expectedResponse);
 }
@@ -107,10 +97,6 @@ public function testVerifyTokenMissing()
     // Call the verify method with the mocked response
     $response = $this->verify->verify($apiKey, $token);
 
-    // Log the response to the terminal for inspection
-    echo "Valid API Response: ";
-    print_r($response);
-
     // Assert the response structure
     $this->assertResponse($response, $expectedResponse);
 }
@@ -132,10 +118,6 @@ public function testVerifyTokenAlreadyVerified()
     
     // Call the verify method with the mocked response
     $response = $this->verify->verify($apiKey, $token);
-
-    // Log the response to the terminal for inspection
-    echo "Valid API Response: ";
-    print_r($response);
 
     // Assert the response structure
    $this->assertResponse($response, $expectedResponse);
