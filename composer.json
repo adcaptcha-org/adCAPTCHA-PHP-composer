@@ -1,7 +1,9 @@
 {
-  "name": "vendor/verifyadcaptcha",
+  "name": "adcaptcha/verify-adcaptcha",
   "description": "A PHP package for verifying adCAPTCHA tokens via the adCAPTCHA API.",
   "type": "library",
+  "keywords": ["captcha","block bots","security","adCAPTCHA","anti-spam"],
+  "homepage": "https://adcaptcha.com/",
   "license": "MIT",
   "autoload": {
     "psr-4": {
