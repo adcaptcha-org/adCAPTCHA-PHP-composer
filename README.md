@@ -13,7 +13,7 @@ To use this package, include it in your project using Composer. If you haven't a
 Add the package to your project with:
 
 ```php
-composer require acmecorp/verify-adcaptcha
+composer require adcaptcha/verify-adcaptcha
 
 ```
 
