@@ -65,9 +65,13 @@ try {
 
 The verify method will return an array containing the HTTP response code and additional response details. Below are the possible status codes and their meanings:
 
+```php
+
 | Status Code | Message                |
 | ----------- | ---------------------- |
 | 200         | Token verified         |
 | 400         | Token missing          |
 | 400         | Invalid token          |
 | 400         | Token already verified |
+
+```
